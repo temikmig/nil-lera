@@ -1,0 +1,32 @@
+.sectionCont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 50px;
+}
+
+.sectionCont h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.timeLineCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.timeLineItem {
+  display: flex;
+  gap: 50px;
+}
+
+.timeLineIcon {
+}
+
+.timeLineTime {
+}
+
+.timeLineTimeDesc {
+}

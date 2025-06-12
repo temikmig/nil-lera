@@ -1,0 +1,14 @@
+.sectionCont h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sectionCont p {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.sectionCont iframe {
+  width: 100%;
+}

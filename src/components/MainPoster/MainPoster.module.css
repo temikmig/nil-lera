@@ -1,0 +1,35 @@
+.mainPosterCont {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/main-poster.jpg");
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainPosterCont h1,
+.mainPosterCont h2,
+.mainPosterCont p {
+  color: #fff;
+  text-shadow: 1px 1px 3px #00000057;
+}
+
+.mainPosterCont h1 {
+  font-size: clamp(36px, 12.5vw, 72px);
+  margin-bottom: 20px;
+}
+
+.mainPosterCont h2 {
+  font-size: clamp(24px, 8.5vw, 48px);
+  margin-bottom: 50px;
+}
+
+.mainPosterCont p {
+  font-size: clamp(24px, 5.5vw, 48px);
+}
