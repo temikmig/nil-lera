@@ -1,0 +1,21 @@
+.sectionCont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 50px;
+}
+
+.sectionCont h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sectionCont p {
+  font-size: 30px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.right {
+  text-align: right !important;
+}

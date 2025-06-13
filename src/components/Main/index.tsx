@@ -1,3 +1,5 @@
+import { Details } from "../Details";
+import { DressCode } from "../DressCode";
 import { FirstWrap } from "../FirstWrap";
 import { Location } from "../Location";
 import { MainPoster } from "../MainPoster";
@@ -10,6 +12,8 @@ const Main = () => {
       <FirstWrap />
       <Timeline />
       <Location />
+      <Details />
+      <DressCode />
     </main>
   );
 };
