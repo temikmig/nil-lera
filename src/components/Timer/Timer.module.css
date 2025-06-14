@@ -1,0 +1,42 @@
+.sectionCont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 50px;
+}
+
+.sectionCont h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sectionCont p {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.timerCont {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.timerItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timerCount {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.timerWrap {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}

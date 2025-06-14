@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 20px;
   gap: 50px;
+  align-items: center;
 }
 
 .sectionCont h1 {
@@ -13,20 +14,36 @@
 .timeLineCont {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-size: 30px;
+  gap: 30px;
+  width: 80%;
 }
 
 .timeLineItem {
   display: flex;
-  gap: 50px;
+  gap: 20px;
+}
+
+.timeLineDesc {
+  width: calc(100% - 70px);
 }
 
 .timeLineIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px #000 solid;
 }
 
 .timeLineTime {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.timeLineTimeName {
+  font-size: 30px;
 }
 
 .timeLineTimeDesc {
+  font-size: 20px;
+  font-style: italic;
 }
