@@ -7,9 +7,9 @@ import { Poster } from "../Poster";
 import { Timeline } from "../Timeline";
 import { Timer } from "../Timer";
 
-import poster_1 from "../../assets/poster1.jpg";
-import poster_2 from "../../assets/poster2.jpg";
-import poster_3 from "../../assets/poster3.jpg";
+import poster_1 from "../../assets/poster_1.jpg";
+import poster_2 from "../../assets/poster_2.jpg";
+import poster_3 from "../../assets/poster_3.jpg";
 
 const Main = () => {
   return (
